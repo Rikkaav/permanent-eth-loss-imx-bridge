@@ -3,7 +3,7 @@ Reproduction Steps:
 Clone the target repo: 
 
     git clone https://github.com/Rikkaav/permanent-eth-loss-imx-bridge
-    cd zkevm-bridge-contracts-test 
+    cd permanent-eth-loss-imx-bridge
 
 Place PoC files: Make sure InfiniteWithdrawal.t.sol is in test/ and MockChildToken.sol is in test/mocks/child/. (You might need to create these subdirectories if they don't exist.)
 Install dependencies: This typically fetches OpenZeppelin contracts and other project dependencies.
