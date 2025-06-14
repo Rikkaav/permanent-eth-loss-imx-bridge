@@ -22,4 +22,4 @@ Expected Output:
 
 You'll see console logs showing the Bridge ETH balance unexpectedly increasing with each withdrawal. This clearly proves the permanent accumulation of user ETH. The test will actually FAIL because the final balance is way off from what it should be.
 
-    [FAIL: Bridge ETH balance did not decrease as expected (for total withdrawals): 13000000000000000000 !~= 6700000000000000000 (max delta: 10000000000000000, real delta: 6300000000000000000)]                 testInfiniteIMXWithdrawal() (gas: 183689)
+    [FAIL: Bridge ETH balance did not decrease as expected (for total withdrawals): 13000000000000000000 !~= 6700000000000000000 (max delta: 10000000000000000, real delta: 6300000000000000000)]                     testInfiniteIMXWithdrawal() (gas: 183689)
